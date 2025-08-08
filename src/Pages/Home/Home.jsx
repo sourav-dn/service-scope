@@ -13,8 +13,8 @@ const Home = () => {
             <FeaturedServices></FeaturedServices>
             <Motion></Motion>
             <MeetOurPartners></MeetOurPartners>
-            <WhyChooseUs></WhyChooseUs>
-            <UsersReview></UsersReview>
+            {/* <WhyChooseUs></WhyChooseUs>
+            <UsersReview></UsersReview> */}
             <CountUpSection></CountUpSection>
         </div>
     );
