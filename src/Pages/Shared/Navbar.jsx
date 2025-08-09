@@ -42,7 +42,7 @@ const Navbar = () => {
     return (
         <div className="sticky top-0 z-50 w-full shadow-lg bg-blue-400">
             {/* Full width background */}
-            <nav className="max-w-7xl mx-auto px-4 sm:px-8">
+            <nav className="w-full mx-auto px-4 sm:px-8">
                 <div className="navbar flex justify-between items-center py-2">
                     {/* Logo/Brand */}
                     <div className="navbar-start flex items-center gap-2">
