@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaUsers, FaTasks, FaAward, FaTools } from 'react-icons/fa';
 
 const App = () => {
@@ -33,10 +32,11 @@ const App = () => {
               Company Benefits
             </p>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-800 leading-tight mb-6">
-              Get to Know About Our Brote Company
+              Get to Know About Our ServiceScope Company
             </h1>
             <p className="text-gray-500 mb-8 leading-relaxed">
-              Lorem ipsum is,simply free text dolor sit am adipi we help you ensure everyone. Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunced amet dolores sit ipsum velit purus aliq massa fringilla leo.
+              ServiceScope is your trusted platform to find, add, and review services. 
+            Our mission is to connect people with quality services easily and efficiently.
             </p>
             
             {/* Features Grid */}
