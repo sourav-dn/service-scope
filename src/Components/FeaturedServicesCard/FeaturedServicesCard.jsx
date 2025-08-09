@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 
 const FeaturedServicesCard = ({ service }) => {
-    const { _id, image, title, description, price } = service;
+    const { _id, image, title, description } = service;
 
     return (
             <div className="flex justify-center">
@@ -14,7 +14,7 @@ const FeaturedServicesCard = ({ service }) => {
                     <div className="card-body">
                         <h2 className="card-title">
                             {title}
-                            <div className="badge badge-secondary">{price}</div>
+                            {/* <div className="badge badge-secondary">{price}</div> */}
                         </h2>
                         <p>{description}</p>
                         <Link to={`/serviceDetails/${service._id}`}>
