@@ -47,7 +47,7 @@ const AddServices = () => {
                 <input type="text" name="category" placeholder="Category" className="input input-bordered w-full" required />
                 <input type="number" step="0.01" name="price" placeholder="Price ($)" className="input input-bordered w-full" required />
 
-                <input type="submit" value="Add Service" className="btn btn-primary w-full mt-4" />
+                <input type="submit" value="Add Service" className="btn btn-outline w-full mt-4" />
             </form>
             <ToastContainer position='top-right' autoClose={3000} />
         </div>
